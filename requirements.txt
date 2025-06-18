@@ -5,7 +5,7 @@ cssselect>=0.9
 lxml
 pycurl
 pyquery
-requests>=2.2
+requests>=2.32.4
 tornado==4.5.3
 mysql-connector-python>=1.2.2
 pika>=0.9.14
@@ -23,3 +23,4 @@ kombu
 psycopg2
 elasticsearch
 tblib
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
