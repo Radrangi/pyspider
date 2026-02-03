@@ -23,3 +23,4 @@ kombu
 psycopg2
 elasticsearch
 tblib
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
